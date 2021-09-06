@@ -1,9 +1,11 @@
 import './App.css';
 
+import HeroHeader from './components/HeroHeader';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <HeroHeader />
     </div>
   );
 }
