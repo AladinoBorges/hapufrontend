@@ -6,13 +6,13 @@ function NavBar() {
         <Badge className="navbar_badge" />
       </div>
       <div className="navbar_center">
-        <a className="between_space">Create Your Banny Share</a>
-        <a className="between_space">Browse Shares</a>
-        <a className="between_space">Our Story</a>
+        <button className="btn navbar">Create Your Banny Share</button>
+        <button className="btn navbar">Browse Shares</button>
+        <button className="btn navbar">Our Story</button>
       </div>
       <div className="navbar_right between_space">
-        <button className="between_space">Become a Nanny Share Host</button>
-        <a href="">Sign In</a>
+        <button className="btn navbar special">Become a Nanny Share Host</button>
+        <button className="btn navbar">Sign In</button>
       </div>
     </div>
   )

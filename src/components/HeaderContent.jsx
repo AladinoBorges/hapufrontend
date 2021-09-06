@@ -1,4 +1,5 @@
 import  ImageCard from '../images/header_card.png';
+import icon from '../images/play_icon.svg';
 
 function HeaderContent() {
   return (
@@ -10,13 +11,15 @@ function HeaderContent() {
         <p className="header_paragraph">
           Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.
         </p>
-        <div className="player_conteiner">
-          <button className="play_btn" />
-          <a>See hapu in action (27 seconds)</a>
+        <div className="player_container">
+          <button className="round_btn">
+            <img src={icon} alt="start play icon" />
+          </button>
+          <a href="https://" className="app_links_header">See hapu in action (27 seconds)</a>
         </div>
       </div>
       <div className="right_content">
-        <img src={ ImageCard } alt="" className="header_image_card" />
+        <img src={ ImageCard } alt="exemple: new nanny share subscriber" className="header_image_card" />
       </div>
     </div>
   );

@@ -1,0 +1,35 @@
+.btn {
+  text-align: center;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px 28px;
+}
+
+.round_btn {
+  color: white;
+  background-color: #00A870;
+  border: none;
+  border-radius: 100%;
+  height: 48px;
+  margin-right: 16px;
+  width: 48px;
+}
+
+.round_btn img {
+  margin: 14px 14px 14px 18px;
+  height: 20px;
+  width: 16px;
+}
+
+.btn:hover { background: #eeeeee0c; }
+.special:hover { background: #00a870ea; }
+
+.danger { color: #ff0000; }
+.default { color: #000000; }
+.info { color: #1e90ff; }
+.navbar { color: #ffffff; }
+.special { background: #00A870 }
+.success { color: #008000; }
+.warning { color: #ffa500; }

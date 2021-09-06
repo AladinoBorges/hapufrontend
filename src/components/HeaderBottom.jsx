@@ -6,7 +6,7 @@ function HeaderBottom() {
       <ProfilePicture className="hero_profile_picture" />
       <p className="header_bottom_paragraph">
       <span>
-        <a href="">Sarah’s day care available now in North Sydney</a>
+        <a href="https://" className="app_links">Sarah’s day care available now in North Sydney</a>
         <strong> Wednesday, Thursday, Friday - 7:30 - 5:30</strong>
       </span>
       </p>
