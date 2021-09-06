@@ -3,7 +3,7 @@ import FirstSectionIMG from '../images/ImageSection1.png';
 function MainFirstSection() {
   return (
     <section className="first_section">
-      <div className="main_left_content">
+      <div className="sec1_left_content">
         <h2>
           Share your home,<br/>nanny and costs
         </h2>
@@ -12,7 +12,7 @@ function MainFirstSection() {
         </p>
         <a href="https://" className="app_links">Ready to get started?</a>
       </div>
-      <div className="main_right_content">
+      <div className="sec1_right_content">
         <img src={FirstSectionIMG} alt="exemple: Jane's ongoig nanny share" />
       </div>
     </section>

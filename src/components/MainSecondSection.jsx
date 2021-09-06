@@ -56,10 +56,32 @@ function MainSecondSection() {
       <p>
         Leave us your name and email and we’ll update you as soon as a share becomes available in your area!
       </p>
-      <form action="" className="forms">
-        <input type="text" value={ userInfo.name } name="name" id="username" placeholder="Your Name" className="input" onChange={ handleInputsChange } />
-        <input type="text" value={ userInfo.email } name="email" id="user_email" placeholder="Your Email" className="input" onChange={ handleInputsChange } />
-        <button className={buttonStatus ? "btn_disabled navbar" : "btn navbar special"} onClick={handleFormSubmission} disabled={ buttonStatus }>Send</button>
+      <form className="forms">
+        <input
+          type="text"
+          value={ userInfo.name }
+          name="name"
+          id="username"
+          placeholder="Your Name"
+          className="input"
+          onChange={ handleInputsChange }
+        />
+        <input
+          type="text"
+          value={ userInfo.email }
+          name="email"
+          id="user_email"
+          placeholder="Your Email"
+          className="input"
+          onChange={ handleInputsChange }
+        />
+        <button
+          className={buttonStatus ? "btn_disabled navbar" : "btn navbar special"}
+          onClick={handleFormSubmission}
+          disabled={ buttonStatus }
+        >
+          Send
+        </button>
       </form>
     </section>
   );
