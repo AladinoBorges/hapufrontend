@@ -1,10 +1,11 @@
 .btn {
-  text-align: center;
   background-color: inherit;
   border: none;
+  border-radius: 4px;
   cursor: pointer;
   display: inline-block;
   padding: 14px 28px;
+  text-align: center;
 }
 
 .round_btn {
@@ -21,6 +22,29 @@
   margin: 14px 14px 14px 18px;
   height: 20px;
   width: 16px;
+}
+
+.btn_disabled {
+  background-color: inherit;
+  border: none;
+  border-radius: 4px;
+  background: #00a870d0;
+  cursor: not-allowed;
+  display: inline-block;
+  padding: 14px 28px;
+  text-align: center;
+}
+
+.input {
+  background-color: #ffffff;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  cursor: text;
+  display: inline-block;
+  height: 48px;
+  /* padding: 14px 28px; */
+  text-align: center;
+  width: 232px;
 }
 
 .btn:hover { background: #eeeeee0c; }
