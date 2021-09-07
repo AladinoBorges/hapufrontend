@@ -1,5 +1,3 @@
-import '../styles/mainContent.css';
-
 import MainFirstSection from './MainFirstSection';
 import MainSecondSection from './MainSecondSection';
 import MainThirdSection from './MainThirdSection';

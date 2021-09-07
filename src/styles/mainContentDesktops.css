@@ -1,0 +1,230 @@
+@media only screen and (min-width: 768px) {
+  .main_content {
+    background-color: #FAF9F7;
+    margin: 0 auto;
+    width: 1440px;
+  }
+  
+  .main_content hr {
+    border: 1px solid #DFDFDF;
+    height: 0;
+    width: 784px;
+  }
+  
+  /* SECTION ONE */
+  .first_section {
+    display: flex;
+    margin-left: 228px;
+    margin-bottom: 120px;
+    width: 1440px;
+  }
+  
+  .sec1_left_content {
+    margin-right: 56px;
+    margin-top: 120px;
+    text-align: left;
+  }
+  
+  .sec1_left_content h2 {
+    color: #3D3D3D;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 500;
+    height: 64px;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .sec1_left_content p {
+    color: #4A4A4A;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 16px;
+    height: 224px;
+    margin-bottom: 40px;
+    width: 444px;
+  }
+  
+  .sec1_right_content {
+    height: 392px;
+    margin-top: 120px;
+    width: 584px;
+  }
+  
+  /* SECTION TWO */
+  .second_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    width: 1440px;
+  }
+  
+  .second_section h3 {
+    align-items: center;
+    color: #3D3D3D;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .second_section p {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 74px;
+    text-align: center;
+  }
+  
+  .forms {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .forms input {
+    padding-left: 16px;
+    text-align: left;
+  }
+  
+  .forms input, bottom {
+    margin: 0 6px;
+  }
+  
+  /* SECTION THREE */
+  .third_section {
+    display: flex;
+    margin-bottom: 96px;
+    margin-left: 228px;
+    width: 1440px;
+  }
+  
+  .sec3_left_content {
+    height: 336px;
+    margin-top: 96px;
+    width: 456px;
+  }
+  
+  .sec3_right_content {
+    margin-left: 44px;
+    margin-right: 228px;
+    margin-top: 70px;
+    text-align: left;
+    width: 484px; 
+  }
+  
+  .sec3_right_content h2 {
+    color: #3D3D3D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .sec3_right_content p {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .sec3_right_content a {
+    line-height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  /* SECTION FOUR */
+  .fourth_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 104px;
+    margin-top: 96px;
+    text-align: center;
+    width: 1440px;
+  }
+  
+  .fourth_section h2 {
+    color: #3D3D3D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 40px;
+    width: 469px;
+  }
+  
+  .fourth_section p {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 784px;
+  }
+  
+  .fourth_section a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 64px;
+    width: 394px;
+  }
+  
+  .fourth_section img {
+    height: 392px;
+    width: 984px;
+  }
+  
+  /* SECTION FIVE */
+  .fifth_section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    width: 1440px;
+  }
+  
+  .fifth_section img {
+    height: 96px;
+    margin-bottom: 40px;
+    width: 216px;
+  }
+  
+  .fifth_section h2 {
+    color: #3D3D3D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+    width: 552px;
+  }
+  
+  .fifth_section p {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 84px;
+    line-height: 28px;
+    margin-bottom: 120px;
+    text-align: center;
+    width: 784px;
+  }  
+}

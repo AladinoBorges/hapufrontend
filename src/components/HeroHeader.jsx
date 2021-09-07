@@ -2,8 +2,6 @@ import HeaderBottom from "./HeaderBottom";
 import HeaderContent from "./HeaderContent";
 import NavBar from "./NavBar";
 
-import '../styles/heroHeader.css';
-
 function HeroHeader() {
   return (
     <header className="hero_header display_column">

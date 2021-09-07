@@ -6,8 +6,14 @@ function MainSecondSection() {
 
   const handleButtonStatus = () => {
     const { name, email } = userInfo;
+    const REGEX = /\S+@\S+\.\S+/;
 
-    if (name === '' && email === '') {
+    const nameValidator = name.length >= 4;
+    const emailValidator = REGEX.test(email);
+
+    const isValid = emailValidator && nameValidator;
+
+    if (!isValid) {
       setButtonStatus(true);
     } else {
       setButtonStatus(false);

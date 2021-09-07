@@ -13,7 +13,7 @@ function NavBar() {
       </div>
       <div className="navbar_right between_space">
         <button className="btn navbar special">Become a Nanny Share Host</button>
-        <button className="btn navbar">Sign In</button>
+        <button className="btn navbar signIn">Sign In</button>
       </div>
     </div>
   )
