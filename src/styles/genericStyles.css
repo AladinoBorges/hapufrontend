@@ -8,15 +8,20 @@
   text-align: center;
 }
 
+.btn:hover { background: #eeeeee0c; }
+
 .round_btn {
-  color: white;
-  background-color: #00A870;
+  background-color: #00a870ef;
   border: none;
   border-radius: 100%;
+  color: white;
+  cursor: pointer;
   height: 48px;
   margin-right: 16px;
   width: 48px;
 }
+
+.round_btn:hover { background-color: #00A870; }
 
 .round_btn img {
   margin: 14px 14px 14px 18px;
@@ -25,10 +30,9 @@
 }
 
 .btn_disabled {
-  background-color: inherit;
+  background: #00a870d0;
   border: none;
   border-radius: 4px;
-  background: #00a870d0;
   cursor: not-allowed;
   display: inline-block;
   padding: 14px 28px;
@@ -36,24 +40,22 @@
 }
 
 .input {
-  background-color: #ffffff;
+  background: #ffffff;
   border: 1px solid #DFDFDF;
   border-radius: 4px;
   cursor: text;
   display: inline-block;
   height: 48px;
-  /* padding: 14px 28px; */
   text-align: center;
   width: 232px;
 }
-
-.btn:hover { background: #eeeeee0c; }
-.special:hover { background: #00a870ea; }
 
 .danger { color: #ff0000; }
 .default { color: #000000; }
 .info { color: #1e90ff; }
 .navbar { color: #ffffff; }
-.special { background: #00A870 }
 .success { color: #008000; }
 .warning { color: #ffa500; }
+
+.special { background: #00a870ee; }
+.special:hover { background: #00A870; }
