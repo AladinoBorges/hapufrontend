@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hapufrontend/static/css/main.67653648.chunk.css",
+    "main.js": "/hapufrontend/static/js/main.b59d6dd5.chunk.js",
+    "main.js.map": "/hapufrontend/static/js/main.b59d6dd5.chunk.js.map",
+    "runtime-main.js": "/hapufrontend/static/js/runtime-main.1f18cf59.js",
+    "runtime-main.js.map": "/hapufrontend/static/js/runtime-main.1f18cf59.js.map",
+    "static/js/2.90a07103.chunk.js": "/hapufrontend/static/js/2.90a07103.chunk.js",
+    "static/js/2.90a07103.chunk.js.map": "/hapufrontend/static/js/2.90a07103.chunk.js.map",
+    "static/js/3.688b1258.chunk.js": "/hapufrontend/static/js/3.688b1258.chunk.js",
+    "static/js/3.688b1258.chunk.js.map": "/hapufrontend/static/js/3.688b1258.chunk.js.map",
+    "index.html": "/hapufrontend/index.html",
+    "static/css/main.67653648.chunk.css.map": "/hapufrontend/static/css/main.67653648.chunk.css.map",
+    "static/js/2.90a07103.chunk.js.LICENSE.txt": "/hapufrontend/static/js/2.90a07103.chunk.js.LICENSE.txt",
+    "static/media/ImageSection1.394aaff9.png": "/hapufrontend/static/media/ImageSection1.394aaff9.png",
+    "static/media/ImageSection3.943f0611.png": "/hapufrontend/static/media/ImageSection3.943f0611.png",
+    "static/media/ImageSection4.792d483b.png": "/hapufrontend/static/media/ImageSection4.792d483b.png",
+    "static/media/badge.8c2000ef.svg": "/hapufrontend/static/media/badge.8c2000ef.svg",
+    "static/media/facebook.2ab87ece.svg": "/hapufrontend/static/media/facebook.2ab87ece.svg",
+    "static/media/hapu_logo.f5bd6642.svg": "/hapufrontend/static/media/hapu_logo.f5bd6642.svg",
+    "static/media/header_card.0000079d.png": "/hapufrontend/static/media/header_card.0000079d.png",
+    "static/media/heroHeaderDesktops.css": "/hapufrontend/static/media/hero_header.ce258e69.svg",
+    "static/media/hero_header_profile.1be06b6c.svg": "/hapufrontend/static/media/hero_header_profile.1be06b6c.svg",
+    "static/media/instagram.d3710ec2.svg": "/hapufrontend/static/media/instagram.d3710ec2.svg",
+    "static/media/play_icon.4bdeaa2f.svg": "/hapufrontend/static/media/play_icon.4bdeaa2f.svg",
+    "static/media/twitter.0e20a398.svg": "/hapufrontend/static/media/twitter.0e20a398.svg",
+    "static/media/union.aa43e26a.svg": "/hapufrontend/static/media/union.aa43e26a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f18cf59.js",
+    "static/js/2.90a07103.chunk.js",
+    "static/css/main.67653648.chunk.css",
+    "static/js/main.b59d6dd5.chunk.js"
+  ]
+}
