@@ -1,4 +1,5 @@
 import { ReactComponent as Badge } from '../images/badge.svg';
+
 function NavBar() {
   return (
     <div className="navbar_container">

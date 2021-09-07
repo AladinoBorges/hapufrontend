@@ -60,10 +60,11 @@
 }
 
 .header_bottom {
-  position: absolute;
-  width: 1440px;
+  background: #FFFFFF;
   height: 112px;
+  position: absolute;
   top: 616px;
+  width: 1440px;
 }
 
 .header_info_container {
