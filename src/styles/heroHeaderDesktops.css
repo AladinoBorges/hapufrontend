@@ -1,0 +1,145 @@
+@media only screen and (min-width: 768px) {
+  .hero_header {
+    border-bottom: 1px solid #DFDFDF;
+    color: white;
+    margin: 0 auto;
+    height: 728px;
+    width: 1440px;
+  }
+  
+  .app_links_header {
+    color: white;
+  }
+  
+  .navbar_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    width: 98%;
+  }
+  
+  .between_space {
+    margin: 0 20px;
+  }
+  
+  .navbar_badge_container {
+    width: 7%;
+  }
+  
+  .navbar_badge {
+    height: 64px;
+    width: 48px;
+  }
+  
+  .navbar_center {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    width: 52%;
+  }
+  
+  .navbar_right {
+    text-align: right;
+    width: 40%;
+  }
+  
+  .display_column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header_top {
+    background: url("../images//hero_header.svg"), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    height: 616px;
+    position: absolute;
+    top: 0px;
+    width: 1440px;
+  }
+  
+  .header_bottom {
+    background: #FFFFFF;
+    height: 112px;
+    position: absolute;
+    top: 616px;
+    width: 1440px;
+  }
+  
+  .header_info_container {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    width: 82%;
+  }
+  
+  .header_title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    height: 96px;
+    letter-spacing: -1px;
+    line-height: 48px;
+    margin-top: 30px;
+    width: 490px;
+  }
+  
+  .header_paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    height: 48px;
+    line-height: 24px;
+    margin-top: 24px;
+    width: 584px;
+  }
+  
+  .header_image_card {
+    position: absolute;
+    width: 316px;
+    height: 290px;
+    left: 896px;
+    top: 170px;
+  }
+  
+  .left_content {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 60%;
+  }
+  
+  .right_content {
+    align-items: right;
+    justify-content: right;
+    width: 40%;
+  }
+  
+  .player_container {
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+  }
+  
+  .header_bottom_content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .header_bottom_paragraph {
+    color: black;
+  }
+  
+  .hero_profile_picture {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
+  }  
+}
